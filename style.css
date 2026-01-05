@@ -69,7 +69,7 @@ article{
    margin: 60px -60px;
    background-image: url(imagens/background001.jpg);
    background-size: cover;
-   max-width: 100%;
+   max-width: 82vw;
    max-height: 80vh;
 
 }
@@ -83,7 +83,7 @@ article{
    margin: 60px -60px;
    background-image: url(imagens/background002.jpg);
    background-size: cover;
-   max-width: 100%;
+   max-width: 82vw;
    max-height: 80vh;
     
 }
