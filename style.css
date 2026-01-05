@@ -51,6 +51,7 @@ article{
     font-family: sriracha;
     font-size: 4em;
     padding: 2%;
+    margin: 10%;
     color: white;
     background-color: rgba(0, 0, 0, 0.422);
     max-width: 70vw;
@@ -65,7 +66,7 @@ article{
    background-position: right center;
    justify-content: left;
    align-items: center;
-   padding: 10%;
+   
    margin: 60px -60px;
    background-image: url(imagens/background001.jpg);
    background-size: cover;
