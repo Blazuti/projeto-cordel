@@ -17,7 +17,7 @@ header{
 
 header > h1{
     font-family: Passion One;
-    font-size: 8vw;
+    font-size: 10vw;
     color: white;
     text-align: center;
 }
@@ -45,14 +45,14 @@ article{
     font-family: sriracha;
     font-size: 4em;
     
+    
 }
 .imagem{
     font-family: sriracha;
     font-size: 4em;
-    padding: 60px;
+    padding: 2%;
     color: white;
     background-color: rgba(0, 0, 0, 0.422);
-    
     max-width: 70vw;
     max-height: 100vh;
     width: fit-content;
