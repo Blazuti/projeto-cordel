@@ -17,7 +17,7 @@ header{
 
 header > h1{
     font-family: Passion One;
-    font-size: 10vw;
+    font-size: 8vw;
     color: white;
     text-align: center;
 }
@@ -37,69 +37,48 @@ nav > a{
     color: white;
     text-align: center;
 }
-article{
-    padding: 10%;
+section.normal > p{
+    font: normal 3vw sriracha;
+    padding: 5vw;
 }
-
-.normal{
-    font-family: sriracha;
-    font-size: 4em;
-    
-    
-}
-.imagem{
-    font-family: sriracha;
-    font-size: 4em;
-    padding: 2%;
-    margin: 10%;
+section.imagem{
+    font: normal 3vw sriracha;
     color: white;
-    background-color: rgba(0, 0, 0, 0.422);
-    max-width: 70vw;
-    max-height: 100vh;
-    width: fit-content;
+    padding: 5vw;
+    align-content: center;
     
-
+    
 }
-#img-001{
-   display: flex;
-   background-attachment: fixed;
-   background-position: right center;
-   justify-content: left;
-   align-items: center;
-   
-   margin: 60px -60px;
-   background-image: url(imagens/background001.jpg);
-   background-size: cover;
-   max-width: 82vw;
-   max-height: 80vh;
-
+section.imagem > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    max-height: ;
 }
-#img-002{
-    display: flex;
+
+section#img-001{
+    display: block;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right top;
     background-attachment: fixed;
-    background-position: right center;
-   justify-content: left;
-   align-items: center;
-   padding: 10%;
-   margin: 60px -60px;
-   background-image: url(imagens/background002.jpg);
-   background-size: cover;
-   max-width: 82vw;
-   max-height: 80vh;
     
+
 }
-footer > p{
-    background-color: rgba(0, 0, 0, 0.707);
+section#img-002{
+    display: block;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+}
+footer{
+    font-size: 2vw;
     color: white;
+    background-color: rgba(0, 0, 0, 0.633);
     text-align: center;
-    padding: 5px;
-    font-size: 1.5vw;
 }
 footer > p > a{
-    color: white;
     text-decoration: none;
-    font-size: 1.5vw;
-}
-p{
-    font-size: 3vw;
+    color: white;
 }
